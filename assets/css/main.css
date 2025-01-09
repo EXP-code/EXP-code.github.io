@@ -236,7 +236,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #000000;
+		color: #ebebeb;
 		font-weight: 300;
 		letter-spacing: 0.1em;
 		line-height: 1.5;
@@ -245,7 +245,7 @@ input, select, textarea {
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
+			color: #000000;
 			text-decoration: none;
 		}
 
@@ -1624,7 +1624,7 @@ input, select, textarea {
 				left: 0;
 				position: absolute;
 				top: 0;
-				width: 100%;
+				width: 130%;
 			}
 
 			#main .thumb > .image {
@@ -1777,9 +1777,9 @@ input, select, textarea {
 				-webkit-transition-delay: 2.075s;
 				-ms-transition-delay: 2.075s;
 				transition-delay: 2.075s;
-				height: calc(40vh - 2em);
+				height: 33.33333%;
 				min-height: 20em;
-				width: 50%;
+				width: 33.333333%;
 			}
 
 				#main .thumb:nth-child(1) {
