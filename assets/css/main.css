@@ -236,7 +236,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ebebeb;
+		color: #a0a0a1;
 		font-weight: 300;
 		letter-spacing: 0.1em;
 		line-height: 1.5;
@@ -1279,7 +1279,7 @@ input, select, textarea {
 			}
 
 			.poptrox-popup .caption p {
-				color: #ffffff;
+				color: #000000;
 			}
 
 		.poptrox-popup .loader {
@@ -1773,7 +1773,7 @@ input, select, textarea {
 				-webkit-transition-delay: 2.075s;
 				-ms-transition-delay: 2.075s;
 				transition-delay: 2.075s;
-				height: 30%;
+				height: 20%;
 				min-height: 20em;
 				width: 33.333333%;
 			}
