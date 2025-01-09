@@ -1647,7 +1647,7 @@ input, select, textarea {
 			#main .thumb > h2 {
 				pointer-events: none;
 				bottom: 10%;
-				font-size: 3em;
+				font-size: 2em;
 				left: 10%;
 				margin: 0;
 				position: absolute;
