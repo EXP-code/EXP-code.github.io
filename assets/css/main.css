@@ -1624,7 +1624,7 @@ input, select, textarea {
 				left: 0;
 				position: absolute;
 				top: 0;
-				width: 130%;
+				width: 100%;
 			}
 
 			#main .thumb > .image {
