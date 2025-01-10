@@ -1697,7 +1697,7 @@ input, select, textarea {
 			transition-delay: 2.525s;
 			height: calc(60vh - 2em);
 			min-height: 30em;
-			width: 50%;
+			width: 100%;
 		}
 
 			#main .thumb:nth-child(1) {
