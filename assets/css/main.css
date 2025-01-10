@@ -1265,8 +1265,8 @@ input, select, textarea {
 			cursor: default;
 			left: 0;
 			position: absolute;
-			text-align: left;
-			width: 100%;
+			text-align: center;
+			width: 150%;
 			z-index: 2;
 		}
 
