@@ -1204,7 +1204,7 @@ input, select, textarea {
 			left: 0;
 			position: absolute;
 			top: 0;
-			width: 100%;
+			width: 120%;
 			z-index: 1;
 			opacity: 1;
 		}
@@ -1697,7 +1697,7 @@ input, select, textarea {
 			transition-delay: 2.525s;
 			height: calc(60vh - 2em);
 			min-height: 30em;
-			width: 100%;
+			width: 50%;
 		}
 
 			#main .thumb:nth-child(1) {
