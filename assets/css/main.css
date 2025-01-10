@@ -236,7 +236,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #fefeff;
 		font-weight: 300;
 		letter-spacing: 0.1em;
 		line-height: 1.5;
@@ -245,7 +245,7 @@ input, select, textarea {
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
+			color:inherit;
 			text-decoration: none;
 		}
 
@@ -1204,7 +1204,7 @@ input, select, textarea {
 			left: 0;
 			position: absolute;
 			top: 0;
-			width: 120%;
+			width: 100%;
 			z-index: 1;
 			opacity: 1;
 		}
@@ -1266,7 +1266,7 @@ input, select, textarea {
 			left: 0;
 			position: absolute;
 			text-align: left;
-			width: 120%;
+			width: 100%;
 			z-index: 2;
 		}
 
@@ -1615,11 +1615,11 @@ input, select, textarea {
 				background-size: cover;
 				content: '';
 				display: block;
-				height: 120%;
+				height: 100%;
 				left: 0;
 				position: absolute;
 				top: 0;
-				width: 120%;
+				width: 100%;
 			}
 
 			#main .thumb > .image {
@@ -1628,11 +1628,11 @@ input, select, textarea {
 				background-repeat: no-repeat;
 				background-size: cover;
 				border: 0;
-				height: 120%;
+				height: 100%;
 				left: 0;
 				position: absolute;
 				top: 0;
-				width: 120%;
+				width: 100%;
 			}
 
 			#main .thumb > h2 {
@@ -1658,13 +1658,13 @@ input, select, textarea {
 			background: rgba(36, 38, 41, 0.25);
 			content: '';
 			display: block;
-			height: 120%;
+			height: 100%;
 			left: 0;
 			opacity: 0;
 			position: absolute;
 			top: 0;
 			visibility: hidden;
-			width: 120%;
+			width: 100%;
 			z-index: 1;
 		}
 
@@ -1695,7 +1695,7 @@ input, select, textarea {
 			-webkit-transition-delay: 2.525s;
 			-ms-transition-delay: 2.525s;
 			transition-delay: 2.525s;
-			height: calc(60vh - 2em);
+			height: calc(50vh - 2em);
 			min-height: 30em;
 			width: 50%;
 		}
@@ -1772,7 +1772,7 @@ input, select, textarea {
 				-webkit-transition-delay: 2.075s;
 				-ms-transition-delay: 2.075s;
 				transition-delay: 2.075s;
-				height: calc(40vh - 2em);
+				height: 20%;
 				min-height: 20em;
 				width: 33.333333%;
 			}
