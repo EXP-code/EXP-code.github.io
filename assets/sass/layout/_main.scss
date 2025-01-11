@@ -46,7 +46,7 @@
 				background-repeat: no-repeat;
 				background-size: cover;
 				border: 0;
-				height: 200%;
+				height: 100%;
 				left: 0;
 				position: absolute;
 				top: 0;
@@ -83,7 +83,7 @@
 			position: absolute;
 			top: 0;
 			visibility: hidden;
-			width: 100%;
+			width: 200%;
 			z-index: 1;
 
 			body.ie & {

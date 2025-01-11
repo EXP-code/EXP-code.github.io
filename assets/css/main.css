@@ -1619,7 +1619,7 @@ input, select, textarea {
 				left: 0;
 				position: absolute;
 				top: 0;
-				width: 200%;
+				width: 100%;
 			}
 
 			#main .thumb > .image {
@@ -1696,8 +1696,8 @@ input, select, textarea {
 			-ms-transition-delay: 2.525s;
 			transition-delay: 2.525s;
 			height: calc(50vh - 2em);
-			min-height: 30em;
-			width: 50%;
+			min-height: 50em;
+			width: 100%;
 		}
 
 			#main .thumb:nth-child(1) {
