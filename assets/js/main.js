@@ -255,10 +255,10 @@
 				onPopupOpen: function() { $body.addClass('modal-active'); },
 				overlayOpacity: 0,
 				popupCloserText: '',
-				popupHeight: 300,
+				popupHeight: 150,
 				popupLoaderText: '',
 				popupSpeed: 300,
-				popupWidth: 300,
+				popupWidth: 150,
 				selector: '.thumb > a.image',
 				usePopupCaption: true,
 				usePopupCloser: true,
@@ -266,7 +266,7 @@
 				usePopupForceClose: true,
 				usePopupLoader: true,
 				usePopupNav: true,
-				windowMargin: 20
+				windowMargin: 50
 			});
 
 			// Hack: Set margins to 0 when 'xsmall' activates.
