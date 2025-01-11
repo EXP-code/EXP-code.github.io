@@ -1341,9 +1341,6 @@ input, select, textarea {
 				display: none;
 			}
 
-			.poptrox-popup .caption {
-				display: none !important;
-			}
 
 			.poptrox-popup .closer,
 			.poptrox-popup .nav-previous,
