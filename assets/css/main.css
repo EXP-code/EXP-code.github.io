@@ -245,7 +245,7 @@ input, select, textarea {
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color:inherit;
+			color:#000000;
 			text-decoration: none;
 		}
 
@@ -1261,7 +1261,7 @@ input, select, textarea {
 
 		.poptrox-popup .caption {
 			padding: 2em 2em 0.1em 2em ;
-			bottom: 0;
+			bottom: auto;
 			cursor: default;
 			left: 0;
 			position: absolute;
@@ -1762,7 +1762,7 @@ input, select, textarea {
 
 
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: 5120px) {
 
 			#main .thumb {
 				-moz-transition-delay: 2.075s;
