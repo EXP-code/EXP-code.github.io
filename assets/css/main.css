@@ -245,7 +245,7 @@ input, select, textarea {
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color:#000000;
+			color: #000000;
 			text-decoration: none;
 		}
 
@@ -401,7 +401,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			box-shadow: inset 0 0 0 2px #34a58e;
-			color: #34a58e !important;
+			color: #143a32 !important;
 		}
 
 			input[type="submit"]:hover:active,
@@ -410,7 +410,7 @@ input, select, textarea {
 			button:hover:active,
 			.button:hover:active {
 				background-color: rgba(52, 165, 142, 0.15);
-				color: #34a58e !important;
+				color: #143142 !important;
 			}
 
 		input[type="submit"].icon,
@@ -1261,7 +1261,7 @@ input, select, textarea {
 
 		.poptrox-popup .caption {
 			padding: 2em 2em 0.1em 2em ;
-			bottom: auto;
+			bottom: 20%;
 			cursor: default;
 			left: 0;
 			position: absolute;
