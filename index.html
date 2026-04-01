@@ -66,36 +66,45 @@
 						</article>
 						<article class="thumb">
 							<a href="images/fulls/plain.png" class="image"><img src="images/thumbs/2.png" alt="" /></a>
-							<h2>Why should I use basis function expansions?</h2>
-							<p> Basis function expansions (BFEs) provide a mathematical framework for interrogating and understanding 
-								complex systems. Through this framework, it is possible to discover the underlying dynamics within 
-								simulations that span the full gamut of complexity, ranging from idealized periodic boxes to large 
-								cosmological simulations. This framework provides natural ties to analytic theory as well as new 
-								supervised and unsupervised machine learning tools. One such tool is multi-channel Single Spectrum 
-								Analysis (mSSA), and examples of using mSSA + BFE for dynamical discovery can be seen in 
-								<a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.501.5408W/abstract">here</a> and 
-								<a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.521.1757J/abstract">here</a> (see also the 
-								<a href = "https://exp-docs.readthedocs.io/en/latest/topics/ssa.html">EXP readthedocs</a>). 
-								A particularly powerful use of BFE is as a universal language to succinctly summarize the relevant 
-								dynamical information in galaxies for comparison across and between different simulations.</p>
+							<h2> <b> Exp </b> = Adaptive BFEs: precision and concision in the language</h2>
+							<p> <b> Exp </b> provides numerical tools that derive efficient representations of BFEs from linear combinations 
+								of an initial set of functions based on the character of the data, providing a concise description that 
+								minimizes the degrees of freedom while efficiently capturing the properties of the fields. At the same 
+								time, the description is more precise in its representation of the fields.   These distillations provide 
+								opportunities to store and reuse key dynamical content in easy-to-reconstruct field form.  Applications 
+								include resampling phase space at higher resolution than the original simulation, replaying the 
+								time-evolving fields to study their influence on ensembles of orbits that may represent stellar streams,
+								 star clusters, dwarf galaxies, dark matter substructure, just to name a few. </p>
 						</article>
 						<article class="thumb">
 							<a href="images/fulls/plain.png" class="image"><img src="images/thumbs/3.png" alt="" /></a>
-							<h2>Basis Function Expansions for Cosmological Simulations</h2>
-							<p>Basis function expansions (BFEs) can be used as a post-processing analysis framework for cosmological simulations. 
-								With BFEs, you can analyze the dark matter halo of your favorite galaxy from any cosmological 
-								simulation to find wakes, dipoles, and more. You can also succinctly describe the stellar disk of
-								a galaxy, use the expansions to integrate orbits in the gravitational potential, and more. See some highlights 
-								of recent cosmological analyses below</p>
-							<p> Add a blurb of your paper here! </p>
+							<h2> <b> Exp </b> = BFE+mSSA: finding the story being told by BFE’s </h2>
+							<p> <b> EXP </b> also provides tools that correlate the morphology and time dependence of dominant features contributing 
+								to the evolution of a field from multiple sets of expansion coefficients. By adding correlations in the time 
+								domain to the correlations represented by the BFEs, the dynamical content of temporal variation becomes manifest.
+								  This automatic spatio-temporal discovery is a form of unsupervised learning and has already led to 
+								  discovery of new, previously unknown, dynamics in our simulations. <b> EXP </b> implements multivariate Singular 
+								  Spectrum Analysis (SSA) – an unsupervised machine learning algorithm – tailored to basis-function expansions.  
+								  SSA decomposes the BFE variation in time into interpretable components and provides for spectral estimation 
+								  without specific assumptions about the time dependence of the system. We also provide some preliminary 
+								  support for dynamical mode decomposition (DMD) and other Koopman-related techniques. </p>
 						</article>
 						<article class="thumb">
 							<a href="images/fulls/plain.png" class="image"><img src="images/thumbs/4.png" alt="" /></a>
-							<h2>Basis Function Expansions for Analytic Theorists</h2>
-							<p>Basis function expansions allow us to seamlessly connect analytic theory, such as linear response, to more complex N-body simulations. Basis function 
-								expansions enable the study of coupled modes, for example, such as those from a baryonic disk and a dark matter halo. </p>
-							<p> not sure what to say here</p>
-							<p> your paper blurb here! </p>
+							<h2> <b> EXP </b>: applications to cosmology</h2>
+							<p> <b> EXP </b> can be used to analyze structure in cosmological simulations. Members of the <b> EXP </b> Collaboration are applying 
+								these tools to snapshots from simulations of galaxy formation to:
+								<ul>
+									<li> Compare and contrast the signatures of filamentary accretion from halo deformation in the FIRE simulation suite 
+										(<a “https://ui.adsabs.harvard.edu/abs/2025ApJ...988..190A/abstract” Arora et al, 2025 </a>); </li>
+									<li> Describe the deformation of dark matter halos as they respond to infalling satellites in the MWest simulation suite 
+										(Darragh-Ford et al 2025, in prep)</li>
+									<li> Characterise the effect of deforming dark matter halos on the structural properties of disks  in the Auriga simulation 
+										suite (Lavin et al 2025, in prep); </li>
+									<li> Investigate the interplay between dynamical structure formation, dark matter physics, and feedback mechanisms in the 
+										<a “https://dreams-project.readthedocs.io/en/latest/index.html” DREAMS<a/> suite of cosmological simulations 
+										(Filion et al 2025, in prep) </li>
+								</ul>
 						</article>
 						<article class="thumb">
 							<a href="images/fulls/center-2.png" class="image"><img src="images/thumbs/center-2.png" alt="" /></a>
@@ -107,7 +116,7 @@
 							<h2>Basis Function Expansions for N-body Dynamical Simulations</h2>
 							<p>Basis function expansions (BFEs) can be used to both run and analyze dynamical N-body simulations. The EXP 
 								collaboration - spearheaded by Martin Weinberg - has developed eponymous code to perform both of these 
-								functions. EXP uses BFEs to represent the potential and mass distributions of the star and dark 
+								functions. <b> Exp </b> uses BFEs to represent the potential and mass distributions of the star and dark 
 								matter particles of a galaxy to run simulations significantly faster than alternate techniques. The 
 								theory underpinning BFE simulations and the implementation are discussed in 
 								more detail in the <a href="https://exp-docs.readthedocs.io/en/latest/topics/multistep.html"readthedocs></a>,
@@ -115,22 +124,27 @@
 								<a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.6201P/abstract"2></a>).</p>
 							<p>The resulting simulations have both particle-based snapshot data and basis function information, including 
 								the basis and time-evolving coefficients. These data can be used together to provide unique insight into 
-								the underlying dynamics. EXP can also be run on simulations that were produced with different software, 
+								the underlying dynamics. <b> Exp </b> can also be run on simulations that were produced with different software, 
 								including cosmological simulations, to provide BFEs at each time step. See below for
-								examples that use either or both of these functionalities of EXP.</p>
+								examples that use either or both of these functionalities of <b> Exp </b>.</p>
 							<p> Your paper links and blurbs here!</p>
 						</article>
 						<article class="thumb">
 							<a href="images/fulls/plain.png" class="image"><img src="images/thumbs/8.png" alt="" /></a>
-							<h2>Basis Function Expansions for Observational Insight</h2>
-							<p>Two dimensional basis function expansions can also be performed on observational data. Such 2D expansions 
-								on image data describe the light (stellar) distribution in a galaxy, and provide a language for succinctly, 
-								quantitatively summarizing the morphological features. We adopt a Fourier-Laguerre basis for image data, 
-								which captures both the angular (Fourier) and radial (Laguerre) information. These expansions are also 
-								how we map an image of a galaxy to a sound via sonification. We are currently developing a framework for 
-								expansions of integral field spectrograph data, which will allow for analyses of both velocity and chemical 
-								information.</p>
-							<p> Your paper links and blurbs here! </p>
+							<h2> <b> EXP</b>: applications to observations</h2>
+							<p>Two dimensional basis function expansions can also be performed on observational data. As shown in 
+								<a href=”https://ui.adsabs.harvard.edu/abs/2025MNRAS.539..661G/abstract”>Ganapathy et al 2025</a>, 2D 
+								expansions on image data can be used to describe the light (stellar) distribution in a galaxy, and 
+								provide a language for succinctly, quantitatively summarizing the morphological features. A 
+								Fourier-Laguerre basis is a natural choice for expanding imaging data, capturing both the angular 
+								(Fourier) and radial (Laguerre) information. Expansions using this basis can be used to quantify 
+								lopsidedness in galaxies 
+								(e.g. <a href=”https://ui.adsabs.harvard.edu/abs/2025MNRAS.539..661G/abstract”>Ganapathy et al 2025</a>),
+								 measure galaxy inclination (e.g. Martinez et al, in prep), and identify morphological features like bars. 
+								 These expansions are also how we map an image of a 
+								 (<a href=”https://carriefilion.github.io/#Sonification”>into a sound </a>) via sonification. Similarly, 
+								 we can perform expansions of integral field spectrograph data, which allow for analyses of both velocity 
+								 and chemical information. </p>
 						</article>
 						<article class="thumb">
 							<a href="images/fulls/plain.png" class="image"><img src="images/thumbs/9.png" alt="" /></a>
@@ -150,7 +164,7 @@
 						<article class="thumb">
 							<a href="images/fulls/plain.png" class="image"><img src="images/thumbs/7.png" alt="" /></a>
 							<h2>How to get started</h2>
-							<p>We have built and compiled a variety of resources to help you get started with EXP and basis function expansions!</p>
+							<p>We have built and compiled a variety of resources to help you get started with <b> Exp </b> and basis function expansions!</p>
 							<p> Check out our <a href="https://github.com/EXP-code">GitHub page</a> and accompanying
 								<a href="https://exp-docs.readthedocs.io/en/latest/topics/multistep.html"readthedocs></a> for how to install EXP.</p>
 							<p> If you want to experiment with EXP, try out the <a href="https://github.com/EXP-code/EXP-container">Docker image</a> and 
