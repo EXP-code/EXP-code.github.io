@@ -223,8 +223,8 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #ffffff;
-		font-weight: 300;
+		color: #000000;
+		font-weight: 700;
 	}
 
 	em, i {
@@ -1646,7 +1646,7 @@ input, select, textarea {
 			#main .thumb > h2 {
 				pointer-events: none;
 				bottom: 10%;
-				font-size: 2em;
+				font-size: 1.2em;
 				left: 10%;
 				margin: 0;
 				position: absolute;
