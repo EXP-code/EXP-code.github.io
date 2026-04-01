@@ -75,21 +75,22 @@
 
 		.caption {
 			@include padding(2em, 2em);
-			@include vendor('background-image', 'linear-gradient(to top, rgba(16,16,16,0.45) 25%, rgba(16,16,16,0) 100%)');
+			top: 0;
 			bottom: 0;
 			cursor: default;
 			left: 0;
 			position: absolute;
 			text-align: left;
 			width: 100%;
+			height: 100%;
 			z-index: 2;
-			max-height: 60%;
 			overflow-y: auto;
 			box-sizing: border-box;
-			background: rgba(16, 16, 16, 0.85);
+			background: none;
 
 			h2, h3, h4, h5, h6 {
 				margin: 0 0 (_size(element-margin) * 0.25) 0;
+				color: #000000;
 			}
 
 			p {
