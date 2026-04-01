@@ -1497,6 +1497,11 @@ input, select, textarea {
 				color: #030304;
 			}
 
+			#header h1 a strong, #header h1 a b {
+				color: #000000;
+				font-weight: 700;
+			}
+
 				#header h1 a:hover {
 					color: inherit !important;
 				}
