@@ -3,34 +3,34 @@
 		z-index-base:		10000,
 		main-layout:		(
 			default:		(
-				rows:		2,
-				columns:	4,
+				rows:		3,
+				columns:	3,
 				pad:		0.5,
 				minHeight:	20em
 			),
 			xlarge:			(
-				rows:		2,
+				rows:		3,
 				columns:	3,
 				pad:		0.5,
 				minHeight:	20em
 			),
 			large:			(
-				rows:		2,
-				columns:	2,
+				rows:		3,
+				columns:	3,
 				pad:		0.5,
-				minHeight:	20em
+				minHeight:	18em
 			),
 			medium:			(
 				rows:		3,
-				columns:	2,
+				columns:	3,
 				pad:		0.5,
-				minHeight:	18em
+				minHeight:	16em
 			),
 			xsmall:			(
-				rows:		2,
-				columns:	1,
+				rows:		3,
+				columns:	3,
 				pad:		0.5,
-				minHeight:	18em
+				minHeight:	12em
 			)
 		)
 	);
