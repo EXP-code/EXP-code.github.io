@@ -35,20 +35,34 @@
 						<article class="thumb">
 							<a href="images/fulls/plain.png" class="image"><img src="images/thumbs/1.png" alt="" /></a>
 							<h2> What is a basis function expansion? </h2>
-							<p> A basis function expansion (BFE) uses relatively simple equations to represent a more complex 
-								distribution. Each term in the expansion is given a weight such that the sum of the functions 
-								optimally represents the given distribution. In our case, we use BFEs to represent the 
-								gravitational potential and mass distribution of the dark matter (and/or baryons) in a galaxy. 
-								We tailor the expansion such that the zeroth order term represents the equilibrium state of the galaxy. 
-								The BFE framework is a powerful tool for analyses of galactic dynamics and disequilibrium dynamics, in 
-								particular. The EXP collaboration is built around the shared vision of developing these tools for galactic 
-								dynamics, combining the varied expertise of its members to learn about disequilibrium dynamics in galaxies. 
-								The publicly-available <a href="https://github.com/EXP-code">EXP code</a> was developed to help achieve 
-								this task. As evidenced in the following pages, there are a number of use cases for BFE analysis framework, 
-								and members of our collaboration have used BFEs to provide profound insight into a variety of problems. </p>
-							<p> Interested in learning more? Check out the other tabs of this website,
-								the <a href="https://github.com/EXP-code">Github</a>, and the theory page of the
-								<a href="https://exp-docs.readthedocs.io/en/latest/index.html">readthedocs</a></p>
+							<p> In the Milky Way, the density, potential, velocity, energy, angular momentum and chemical abundance 
+								patterns fluctuate across the disk. More generally, fields in galaxies – and other physical systems – 
+								often vary in complex manners that cannot be captured with simple, analytic formulae. In simulations, 
+								these fluctuations are described in simulations by particles representing random draws from the full 
+								field. In the Milky Way, the fluctuations are captured in the spatial density of stars.  In 
+								observations of other galaxies, the fluctuations are reflected in the properties of light captured in 
+								a pixel. A full description often requires millions or even hundreds of millions of numbers. </p>
+							<p> A well-designed Basis Function Expansion can typically capture the salient features of a complex 
+								field in 1000’s of numbers, providing a succinct description. It does so by representing the full 
+								field in a series of basis functions that span function space. The information in the field is
+								 captured in the coefficients of each basis function in the expansion. For large enough numbers of 
+								 basis functions, any field can be represented. However, BFE’s become truly powerful if they can be
+								 tailored to the application, so the information can be captured in as few terms as possible. </p>
+							<p> The best-known examples of a BFE are Fourier series of sines and cosines, which are very good at 
+								capturing variations in time or space that repeat with a small set of regular periods. In a galactic 
+								dynamics context, the optimal basis will resemble the galaxy, with additional functions to capture 
+								variance or deviations from the simplest axisymmetric model. In N-body simulations of galaxies, BFEs 
+								have been used to derive potential fields at each timestep from particle data at computational effort 
+								proportional to the number of particles – drastically less computationally intense than other 
+								techniques to determine potentials 
+								<a href="https://ui.adsabs.harvard.edu/abs/1992ApJ...386..375H/abstract">Hernquist (1992)</a>. </p>
+							<p> More generally: in theoretical analyses, BFE have been partnered with mathematical tools of 
+								perturbation theory and linear algebra to solve equations, to describe interactions and identify 
+								physical mechanisms such as in the interaction of the Milky Way and Large Magellanic Cloud 
+								(<a href="https://ui.adsabs.harvard.edu/abs/2006ApJ...641L..33W/abstract">Weinberg & Blitz 2006</a>). 
+								Additionally, BFE have been used in observations to compress vast data sets and allow interpretation, 
+								such as in the power spectrum of fluctuations in the temperature of the Cosmic Microwave Background 
+								(<a href=”https://ui.adsabs.harvard.edu/abs/2007ApJS..170..377S/abstract”>Spergel et al. 2007</a>). </p>
 						</article>
 						<article class="thumb">
 							<a href="images/fulls/plain.png" class="image"><img src="images/thumbs/2.png" alt="" /></a>
